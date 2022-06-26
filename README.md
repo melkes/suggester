@@ -1,8 +1,29 @@
 # _Programming Language Suggester_
 
-## For people interested in coding to decide which language they should learn first.
+#### By _**Mike Wilkes**_
+
+#### _For people interested in coding to decide which language they should learn first._
 ---
-### Here are the questions it will ask the user when completed
+## Technologies Used
+
+* _Git_
+* _HTML_
+* _CSS_
+
+## Setup/Installation Requirements
+
+* Clone this repo and open index.html
+
+## Known Bugs
+
+* _It doesn't do anything yet._
+
+## Roadmap
+
+### Needed improvements:
+* _This project is a work in progress._
+
+### __Here are the questions it will ask the user when completed__
 1. Do you have a specific use in mind?
     - Yes __(not C##)__
     - No, I just want something versatile, or maybe good for game development __(C##)__

@@ -6,4 +6,3 @@ function handleRadio(event) {
   window.addEventListener("load", function() {
     document.getElementById("q1").addEventListener("submit", handleRadio);
   });
-  console.log("This is a heading element!");
