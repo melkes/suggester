@@ -2,6 +2,7 @@
 
 ## For people interested in coding to decide which language they should learn first.
 ---
+### Here are the questions it will ask the user when completed
 1. Do you have a specific use in mind?
     - Yes __(not C##)__
     - No, I just want something versatile, or maybe good for game development __(C##)__
@@ -18,5 +19,6 @@
 
 5. Something something databses __(SQL)__
 
-6. Does this statement apply to you?
-    _I don't really know, I just heard you could get a job if you know programming_
+6. Have you got a security clearance? __(Fortran)__
+7. Does this statement apply to you?
+    _I don't really know, I just heard you could get a job if you know programming_ __(C##)__
