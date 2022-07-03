@@ -1,31 +1,78 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="css/bootstrap.css">
-    <script src="js/scripts.js"></script>
-    <title>Programming Language Suggester</title>
-  </head>
-  <body>
-    <div class="col-md-8 py-5 px-3 mx-auto">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="css/bootstrap.css">
+  <script src="js/scripts.js"></script>
+  <title>Programming Language Suggester</title>
+</head>
+
+<body>
+  <div class="col-md-8 py-3 px-0 mx-auto">
     <h1>Find your language</h1>
     <div class="col-lg-8 px-0">
       <p class="lead">Fill out the form and find the best programming language for you!</p>
-      <hr class="mb-5">
-      <!-- horizontal line -->
+      <hr class="mb-">
     </div>
-    <div class="col-lg-8 px-0">
-    <h3>Do you have a specific use in mind?</h3>
+      <!-- horizontal line -->
+  </div>
+  <div class="col-lg-8 py-3 px-3 mx-auto">
     <form id="q1">
-      <input type="radio" name="use" value="yes" id="yeah">
-      <label for="yeah">Yeah</label><br>
-      <input type="radio" name="use" value="no" id="naw">
-      <label for="naw">No, I just want something versatile, or maybe for game development</label><br>
-      <button type="submit">Submit Selection</button>
+      <h3>Do you have a specific use in mind?</h3>
+      <div class="q1">
+        <input type="radio" name="use" value="yes" id="yeah">
+        <label for="yeah">Yeah</label><br>
+        <input type="radio" name="use" value="no" id="naw">
+        <label for="naw">No, I just want something versatile, or maybe for game development</label><br>
+      </div>
+        
+      <div class="q2">
+          <h3>Do you want to make websites?</h3>
+        <input type="radio" name="websites" value="yes" id="websites-yes">
+        <label for="websites-yes">Yes—modern, interactive ones</label><br>
+        <input type="radio" name="websites" value="no" id="websites-meh">
+        <label for="websites-meh">Yeah but nothing too crazy</label><br>
+        <input type="radio" name="websites" value="no" id="websites-no">
+        <label for="websites-meh">Not really</label><br>
+      </div>
+      <div class="q3">
+          <h3>Do you want to work in “business”?</h3>
+        <input type="radio" name="business" value="yes" id="bus-yes">
+        <label for="bus-yes">Yeah</label><br>
+        <input type="radio" name="business" value="no" id="bus-no">
+        <label for="bus-no">No, I just want something versatile, or maybe for game development</label><br>
+      </div>
+
+      <div class="q4">
+        <h3>Do you have a security clearance?</h3>
+      <input type="radio" name="sec" value="no" id="sec-no">
+      <label for="sec-no">No</label><br>
+      <input type="radio" name="sec" value="yes" id="sec-yes">
+      <label for="sec-yes">Maybe..</label><br>
+    </div>
+
+        <button type="submit">Submit Selection</button>
     </form>
+  </div>
+
     <!-- <a href="#" class="text-primary">Example link</a> -->
-    <hr class="pb-3 mb-5 ">
+  <hr class="pb-3 mb-5 ">
+
+  <div class="results">
+    <div id="js">
+      <p>You should do Javascript</p>
+      <!-- The results if someone gets javascript for an answer 
+    You can give it an id so that later you can use selectItemByID-->
+        
+    </div>
+    <div id="fortran">
+<!-- The results if someone gets fortran for an answer -->
+    </div>
+  </div>
     <!-- horizontal line -->
-  </body>
+</body>
+
 </html>
