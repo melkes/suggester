@@ -1,5 +1,5 @@
 .q1, .q2, .q3, .q4, .q5, .q6, .q7 {
-    margin-bottom: 1rem !important;
+    margin-bottom: 1.25rem !important;
 }
 
 .result-title {
@@ -7,7 +7,8 @@
     font-size: 2.5rem;
 }
 
-p.result {
-    line-height: 1.6em;
-    margin: 0 0 1em;
+.results {
+    margin-top: -2.5rem;
+    /* line-height: 1.6em;
+    margin: 0 0 1em; */
 }

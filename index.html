@@ -11,16 +11,16 @@
 </head>
 
 <body>
-  <div class="col-md-8 py-3 px-0 mx-auto">
+  <div class="col-md-8 py-0 px-0 mx-auto">
     <h1>Find your language</h1>
     <div class="col-lg-8 px-0">
       <p class="lead">Fill out the form and find the best programming language for you!</p>
-      <hr class="mb-">
+      <hr class="mb-5">
     </div>
-      <!-- horizontal line -->
+
   </div>
-  <div class="col-lg-8 py-3 px-3 mx-auto">
-    <form id="q1">
+  <div class="col-lg-8 py-0 px-3 mx-auto">
+    <form id="questions">
       <h3>Do you have a specific use in mind?</h3>
       <div class="q1">
         <input type="radio" name="use" value="yes" id="yeah">
@@ -28,9 +28,9 @@
         <input type="radio" name="use" value="no" id="naw">
         <label for="naw">No, I just want something versatile, or maybe for game development</label><br>
       </div>
-        
+
       <div class="q2">
-          <h3>Do you want to make websites?</h3>
+        <h3>Do you want to make websites?</h3>
         <input type="radio" name="websites" value="yes" id="websites-yes">
         <label for="websites-yes">Yes—modern, interactive ones</label><br>
         <input type="radio" name="websites" value="no" id="websites-meh">
@@ -39,7 +39,7 @@
         <label for="websites-meh">Not really</label><br>
       </div>
       <div class="q3">
-          <h3>Do you want to work in “business”?</h3>
+        <h3>Do you want to work in “business”?</h3>
         <input type="radio" name="business" value="yes" id="bus-yes">
         <label for="bus-yes">Yeah</label><br>
         <input type="radio" name="business" value="no" id="bus-no">
@@ -47,32 +47,46 @@
       </div>
 
       <div class="q4">
-        <h3>Do you have a security clearance?</h3>
-      <input type="radio" name="sec" value="no" id="sec-no">
-      <label for="sec-no">No</label><br>
-      <input type="radio" name="sec" value="yes" id="sec-yes">
-      <label for="sec-yes">Maybe..</label><br>
-    </div>
+        <h3>Something something databases</h3>
+        <input type="radio" name="databases" value="yes" id="data-yes">
+        <label for="data-yes">That's me</label><br>
+        <input type="radio" name="databases" value="no" id="data-no">
+        <label for="data-no">No thanks</label><br>
+      </div>
 
-        <button type="submit">Submit Selection</button>
+      <div class="q5">
+        <h3>Do you have a security clearance?</h3>
+        <input type="radio" name="sec" value="sec-no" id="sec-no">
+        <label for="sec-no">No</label><br>
+        <input type="radio" name="use" value="sec-yes" id="sec-yes">
+        <label for="sec-yes">Maybe..</label><br>
+      </div>
+
+      <button type="submit">Submit Selection</button>
     </form>
   </div>
 
-    <!-- <a href="#" class="text-primary">Example link</a> -->
+  <!-- <a href="#" class="text-primary">Example link</a> -->
   <hr class="pb-3 mb-5 ">
 
-  <div class="results">
-    <div id="js">
-      <p>You should do Javascript</p>
-      <!-- The results if someone gets javascript for an answer 
-    You can give it an id so that later you can use selectItemByID-->
-        
-    </div>
-    <div id="fortran">
-<!-- The results if someone gets fortran for an answer -->
+  <div class="col-lg-8 py-3 px-3 mx-auto">
+    <div class="results">
+      <div id="js">
+        <h2>You should do Javascript!</h2>
+        <!-- The results if someone gets javascript for an answer 
+      You can give it an id so that later you can use selectItemByID-->
+      </div>
+
+      <div id="csharp">
+        <h2>You should do C##!</h2>
+      </div>
+
+      <div id="fortran">
+        <h2>You should do Fortran!</h2>
+      </div>
+
     </div>
   </div>
-    <!-- horizontal line -->
 </body>
 
 </html>
