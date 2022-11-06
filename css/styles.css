@@ -30,3 +30,7 @@ body {
   margin: 1rem 1rem;
   box-sizing: border-box;
 }
+
+.answer {
+  max-width: 600px;
+}
