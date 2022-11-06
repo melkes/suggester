@@ -22,14 +22,16 @@
 
 ## Roadmap
 ### Needed improvements:
-
+* Better design/styling
+* Reset button
+* More complexity, e.g. the final two questions do not affect quiz result
 
 ---
 ## License
 
 MIT License
 
-Copyright (c) _2022_ _Mike Wilkes_
+Copyright (c) _2022_ _Mike Wilkes_ 
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
