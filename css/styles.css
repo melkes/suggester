@@ -6,10 +6,27 @@ html {
     font-size: 16px;
   }
 }
-
+body {
+  background-color: #efe8ca;
+}
 .container {
   max-width: 960px;
 }
 .quiz-header {
   max-width: 700px;
+}
+
+.mt-4 {
+  padding: .5rem .5rem;
+  margin: 1rem 1rem;
+  background-color: #efefef;
+  box-sizing: border-box;
+  border: 1px solid rgba(0, 0, 0, 0.25);
+  border-radius: 0.3rem;
+}
+
+.col {
+  padding: .5rem .5rem;
+  margin: 1rem 1rem;
+  box-sizing: border-box;
 }
