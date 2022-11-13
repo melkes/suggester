@@ -52,8 +52,15 @@ window.onload = function () {
 
 };
 
-function hideResults() {
-  const reset = document.getElementById('reset')
-  return reset;
+function resetFunc(event) {
 
+  document.querySelector("#reset").onsubmit
+const reset = document.getElementById('#reset')
+console.log(resetFunc)
 }
+
+// function hideResults() {
+//   const reset = document.querySelector('#reset')
+//   return reset;
+
+// 

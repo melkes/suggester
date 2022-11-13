@@ -14,8 +14,10 @@
       <h1 class="display-4">Language Quiz</h1>
       <p class="lead">Answer these questions to find out which programming language you should learn!</p>
     </div>
-
-    <h2>See what programming language is best for you</h2>
+  </div>
+  
+  <div class="container">
+    <h2 class="quiz-header mx-auto text-center">See what programming language is best for you</h2>
     <form id="quiz">
       <div class="row">
 
@@ -25,7 +27,6 @@
           <label for="yes1">Yes, websites!</label><br>
           <input type="radio" id="no1" name="question1" value="no">
           <label for="no1">No, something else.</label><br>
-
         </div>
 
         <div class="col mt-4">
@@ -62,39 +63,42 @@
           <label for="calm-no">Not really</label><br>
         </div>
         <div class="col">
-          <button type="submit">Submit Selection</button>
+          <button type="  ">Submit Selection</button>
         </div>
       </div>
     </form>
   </div>
+
   <div class="container">
-    <div class="row"  id="html">
-    <div class="col mt-4 answer text-center">
+    <div class="row" id="html">
+      <div class="col mt-4 mx-auto answer text-center">
         <h2>You should learn HTML/CSS!</h2>
       </div>
-      </div>
-      <div class="row" id="csharp">
-        <div class="col mt-4 answer text-center" >
-          <h2>You should learn C#!</h2>
-        </div>
-      </div>
-
-      <div class="row">
-        <div class="col mt-4 answer text-center" id="python">
-          <h2>You should learn python!</h2>
-        </div>
-      </div>
-
-      <div class="row">
-        <div class="col mt-4 answer text-center" id="fortran">
-          <h2>You should learn fortran!</h2>
-        </div>
+    </div>
+    <div class="row" id="csharp">
+      <div class="col mt-4 mx-auto answer text-center">
+        <h2>You should learn C#!</h2>
       </div>
     </div>
+
+    <div class="row">
+      <div class="col mt-4 mx-auto answer text-center" id="python">
+        <h2>You should learn python!</h2>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col mt-4 mx-auto answer text-center" id="fortran">
+        <h2>You should learn fortran!</h2>
+      </div>
+    </div>
+
+    <div class="row" id="reset">
+      <div class="col mt-4 mx-auto reset-quiz  text-center">
+      <button type="button">Reset quiz</button>
+    </div>
+    
   </div>
-
-
-
 </body>
 
 </html>

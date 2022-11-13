@@ -34,3 +34,7 @@ body {
 .answer {
   max-width: 600px;
 }
+
+.reset-quiz {
+  max-width: 200px;
+}
