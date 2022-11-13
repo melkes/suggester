@@ -9,6 +9,7 @@ window.onload = function () {
   python.style = "display:none";
   fortran.style = "display:none";
 
+
   document.querySelector("form").onsubmit = function (event) {
     event.preventDefault();
     
@@ -48,4 +49,11 @@ window.onload = function () {
     }
 
 };
+
 };
+
+function hideResults() {
+  const reset = document.getElementById('reset')
+  return reset;
+
+}
