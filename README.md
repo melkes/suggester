@@ -22,8 +22,8 @@
 
 ## Roadmap
 ### Needed improvements:
+* Reset button now included, but it should also reset radio buttons.
 * Better design/styling
-* Reset button
 * More complexity, e.g. the final two questions do not affect quiz result
 
 ---
