@@ -5,6 +5,7 @@ function resetResults() {
   document.getElementById('python').style = "display:none";
   document.getElementById('fortran').style = "display:none";
    };
+   
  //hide results
 window.onload = function () {
   const html = document.getElementById('html')
@@ -56,32 +57,4 @@ window.onload = function () {
     }
 
 };
-
-
-
-
-// function hideQuiz() {
-//   quiz.style = "display:none";
-//   };
-
-// const btn = document.querySelector("button");  
-// function resetQ (event) {
-
-//  quiz.style = "display:yes";
-// }
-// btn.onclick = resetQ();
 };
-
-
-
-// document.querySelector("#reset").on = function (event) {
-//   event.preventDefault();
-// const reset = document.getElementById('reset')
-// console.log('reset')
-// }
-
-// function hideResults() {
-//   const reset = document.querySelector('#reset')
-//   return reset;
-
-// 
