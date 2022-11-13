@@ -13,11 +13,13 @@ window.onload = function () {
   const python = document.getElementById('python')
   const fortran = document.getElementById('fortran')
   const quiz = document.getElementById('quiz')
+  const resetQ = document.getElementById('reset')
 
   html.style = "display:none";
   cSharp.style = "display:none";
   python.style = "display:none";
   fortran.style = "display:none";
+  resetQ.style = "display:none";
 
   document.querySelector("form").onsubmit = function (event) {
     event.preventDefault();
@@ -31,6 +33,7 @@ window.onload = function () {
       python.style = "display:none";
       fortran.style = "display:none";
       quiz.style = "display:none";
+      resetQ.style = "display:yes";
 
     } else if (sec === "sec-yes") {
       html.style = "display:none";
@@ -38,6 +41,8 @@ window.onload = function () {
       python.style = "display:none";
       fortran.style = "display:block";
       quiz.style = "display:none";
+      resetQ.style = "display:yes";
+
 
 
     } else if (data === "yes") {
@@ -46,6 +51,7 @@ window.onload = function () {
       python.style = "display:yes";
       fortran.style = "display:none";
       quiz.style = "display:none";
+      resetQ.style = "display:yes";
 
     } else {
       html.style = "display:none";
@@ -53,6 +59,7 @@ window.onload = function () {
       python.style = "display:none";
       fortran.style = "display:none";
       quiz.style = "display:none";
+      resetQ.style = "display:yes";
 
     }
 
